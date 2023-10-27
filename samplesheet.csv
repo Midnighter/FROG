@@ -5,7 +5,7 @@ MODEL1909260003,,
 MODEL1909260004,,
 MODEL1909260005,,
 MODEL1909260006,,
-MODEL2201310001,,models/iANEO_SB607.sbml
+MODEL2201310001,,models/iANEO_SB607.sbml.gz
 MODEL2203250001,,
 MODEL2204040001,,
 MODEL2204040002,,
@@ -15,7 +15,7 @@ MODEL2204180001,,
 MODEL2204190001,,
 MODEL2204190002,,
 MODEL2204190003,,
-MODEL2204190004,,models/iIsor850.xml
+MODEL2204190004,,models/iIsor850.xml.gz
 MODEL2204190005,,
 MODEL2204200002,,
 MODEL2204200003,,
@@ -43,9 +43,9 @@ MODEL2210190007,,
 MODEL2210190008,,
 MODEL2210190009,,
 MODEL2210190012,,
-MODEL2211290001_unbound,,models/iMTD22IC_unbound.xml
-MODEL2211290001_bound_condition1,,models/iMTD22IC_bound_Condition1.xml
-MODEL2211290002_unbound,,models/iMTZ22IC_unbound.xml
-MODEL2211290002_bound_condition8,,models/iMTZ22IC_bound_Condition8.xml
-MODEL2211290003_unbound,,models/iMMM22IC_unbound.xml
-MODEL2211290003_bound_condition15,,models/iMMM22IC_bound_Condition15.xml
+MODEL2211290001_unbound,,models/iMTD22IC_unbound.xml.gz
+MODEL2211290001_bound_condition1,,models/iMTD22IC_bound_Condition1.xml.gz
+MODEL2211290002_unbound,,models/iMTZ22IC_unbound.xml.gz
+MODEL2211290002_bound_condition8,,models/iMTZ22IC_bound_Condition8.xml.gz
+MODEL2211290003_unbound,,models/iMMM22IC_unbound.xml.gz
+MODEL2211290003_bound_condition15,,models/iMMM22IC_bound_Condition15.xml.gz
