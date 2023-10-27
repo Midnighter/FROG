@@ -1,0 +1,2 @@
+input: "samplesheet.csv"
+outdir: "results"
