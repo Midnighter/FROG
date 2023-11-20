@@ -9,6 +9,8 @@ nextflow pull "${project}"
 nextflow \
     -c 'local.config' \
     run "${project}" \
-    -r 'dev' \
+    -r dev \
+    -profile docker \
     -params-file 'params.yaml' \
     -resume
+
