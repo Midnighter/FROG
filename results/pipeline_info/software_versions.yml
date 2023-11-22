@@ -1,0 +1,12 @@
+CUSTOM_DUMPSOFTWAREVERSIONS:
+  python: 3.11.0
+  yaml: '6.0'
+FETCH_SBML:
+  cobra: 0.29.0
+MEMOTE_REPORT_SNAPSHOT:
+  memote: 0.16.1
+VALIDATE_SBML:
+  cobra: 0.29.0
+Workflow:
+  Nextflow: 23.10.0
+  opencobra/jeweler: 1.0.2

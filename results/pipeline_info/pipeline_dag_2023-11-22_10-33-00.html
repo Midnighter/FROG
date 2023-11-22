@@ -1,0 +1,88 @@
+<!--
+  ~ Copyright 2013-2023, Seqera Labs
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<html>
+<head>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+</head>
+<body>
+<pre class="mermaid" style="text-align: center;">
+flowchart TB
+    subgraph " "
+    v0["Channel.fromPath"]
+    v3["channel.fromSamplesheet"]
+    v39["ch_workflow_summary"]
+    v42["ch_methods_description"]
+    end
+    subgraph OPENCOBRA_JEWELER
+    subgraph JEWELER
+    v7([FETCH_SBML])
+    v13([VALIDATE_SBML])
+    v22([MEMOTE_REPORT_SNAPSHOT])
+    v5(( ))
+    end
+    v35([CUSTOM_DUMPSOFTWAREVERSIONS])
+    v51([MULTIQC])
+    v8(( ))
+    v40(( ))
+    v48(( ))
+    v49(( ))
+    v50(( ))
+    v55(( ))
+    end
+    subgraph " "
+    v32[" "]
+    v36[" "]
+    v37[" "]
+    v52[" "]
+    v53[" "]
+    v54[" "]
+    v56["multiqc_report"]
+    end
+    v0 --> v48
+    v3 --> v5
+    v5 --> v7
+    v7 --> v5
+    v7 --> v8
+    v5 --> v13
+    v13 --> v5
+    v13 --> v8
+    v5 --> v22
+    v22 --> v5
+    v22 --> v8
+    v5 --> v32
+    v8 --> v35
+    v35 --> v37
+    v35 --> v36
+    v35 --> v40
+    v39 --> v40
+    v42 --> v40
+    v40 --> v51
+    v48 --> v51
+    v49 --> v51
+    v50 --> v51
+    v51 --> v54
+    v51 --> v53
+    v51 --> v52
+    v51 --> v55
+    v55 --> v56
+
+</pre>
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: true });
+</script>
+</body>
+</html>
